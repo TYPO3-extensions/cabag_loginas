@@ -11,3 +11,4 @@ CREATE TABLE sys_domain (
 CREATE TABLE fe_users (
 	tx_cabagloginas_loginas tinytext,
 );
+CREATE INDEX "email" ON "fe_users" ("email");
